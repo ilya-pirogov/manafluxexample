@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "manafluxexample:block/manafluxprovider_block" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "manafluxexample",
+  "version": "${version}",
+  "name": "Mana Flux Example",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ilyapirogov/ManaFluxExample"
+  },
+  "license": "MIT",
+  "icon": "assets/ManaFluxExample/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.pirogov.manafluxexample.client.ManaFluxExampleClient"
+    ],
+    "main": [
+      "dev.pirogov.manafluxexample.ManaFluxExample"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
